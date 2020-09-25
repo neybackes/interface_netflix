@@ -13,7 +13,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
     
 }
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+
+}
 header .logo{   
+    margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', times;
     font-size: 40px;
