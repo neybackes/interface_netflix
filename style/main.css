@@ -1,4 +1,4 @@
-.root{
+:root{
     --vermelho: #e50914;    
     --preta: #141414;
 }
@@ -10,5 +10,16 @@
 }
 body{
     background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
     
+}
+header .logo{   
+    color: var(--vermelho);
+    font-family: 'Arial Black', times;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
 }
