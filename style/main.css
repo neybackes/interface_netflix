@@ -23,3 +23,7 @@ header nav a{
     color: #AAA;
     margin-right: 10px;
 }
+header nav a:hover {
+	
+	color:#fff; 
+	}
